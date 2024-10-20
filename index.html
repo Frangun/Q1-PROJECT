@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gilmores' Season</title>
+	
+  <style>
+
+  	.header {
+    max-width: 2000px;
+    height: 143px;
+    margin: 0;
+    background-color: #BB7616;
+    background-image: url(g1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+}
+
+/* Images of Products */
+.container {
+
+  max-width: 200px;
+  height: 300px;
+  background-color: #BB7616;
+  padding: 10px;
+  margin-left:100px;
+  margin-top:10%;
+  height: 100px;
+
+}
+/* About Page */
+.about-container1 {
+    background-color: #621B00;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 15px;
+    color:whitesmoke;
+    width:800px;
+    height:60px;
+    padding:10px;
+    margin-left:20%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px black;
+  }
+/* Login Head  */
+  .about-container2 {
+    background-color: #621B00;
+    width:1300px;
+    height:90px;
+    padding:10px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 15px;
+    color:whitesmoke;
+  }
+
+/* Login Page  */
+  .container3 {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 4px 4px 8px black;
+            background-color: #621B00;
+        }
+
+    body {
+      background-color: #BB7616;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #621B00;
+      box-shadow: 4px 4px 8px black;
+}
+
+    li {
+      float: left;
+}
+
+    li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-family: Georgia;
+      text-decoration: none; 
+      /*removes unecessary lines*/
+}
+
+    li a:hover {
+      background-color: #2F1000;
+      /*text-effect (background when hovering) */
+}
+  	.jumbotron {
+      color:whitesmoke;
+      font-family:Georgia;
+      text-align: center;
+      font-size: 20px;
+      box
+    }
+
+    footer {
+      background-color: #BB7616;
+      padding: 25px;
+    }
+
+    p {
+      font-family: Courier New;
+      font-size:22px;
+    }
+
+    .panel-heading {
+
+      background-color: #621B00;
+      max-width: 170px;
+      border-radius: 8px;
+      height:50px;
+      text-align: center;
+      color:whitesmoke;
+      font-family: Georgia;
+      font-size:15px;
+      padding:13px;
+      margin-left: 125px;
+      box-shadow: 4px 4px 8px black;
+      
+    }
+
+    .row {display: flex;}
+    .container{flex: 25%;
+      padding: 5px;}
+
+    span {
+      text-shadow: 4px 4px 8px black;
+    }
+
+    p {
+      font-family: Times New Roman;
+      font-size:22px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family:Times New Roman;
+      margin-left: 20%;
+      margin-right: 20%;
+      color:whitesmoke;
+      text-align: center;
+    }
+
+    label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .button {
+            width: 100%;
+            background: #A74E12;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #621B00;
+        }
+
+        .footer {
+          color:whitesmoke;
+          background-color: #A74E12;
+          box-shadow: 5px 10px #621B00;
+          margin-left: 30%;
+          margin-right: 30%;
+          border-radius: 8px;
+          text-align: center;
+
+
+        }
+        
+        input[type="text"], input[type="password"] {
+            width: 460px; /* Adjust the width here */
+            height: 20px; /* Adjust the height here */
+            padding: 10px; /* Adds space inside the text box */
+            font-size: 12px; /* Adjusts the text size */
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 460px; /* Adjust the width here */
+            height: 20px; /* Adjust the height here */
+            padding: 10px; /* Adds space inside the text box */
+            font-size: 12px; /* Adjusts the text size */
+
+        }
+
+        input[type="text"], input[type="username"] {
+            width: 460px; /* Adjust the width here */
+            height: 20px; /* Adjust the height here */
+            padding: 10px; /* Adds space inside the text box */
+            font-size: 12px; /* Adjusts the text size */
+
+        }
+
+/*    Header*/
+
+  </style>
+</head>
+<body>
+	<div class="header">
+    <div class="jumbotron">
+        <h1><b>Gilmores' Season</b></h1>
+        <p><em>Glamour, Glow, Gilmore</em></p>
+    </div>
+</div>
+
+<ul>
+    <li><a href="ICT9Emerald_Q1Project_DelaCruz,F.html">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li style="float:right;"><a href="#login">Login</a></li>
+</ul>
+
+<br>
+<br>
+<br>
+
+<!-- W3Schools online HTML editor. (n.d.). https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_store&stacked=h LINK FOR REFERENCE -->
+
+<!-- Sources for images used: -->
+
+  <!-- Black Jacket: Pinterest by sawyerlivgilmore
+  Boots: Pinterest by Ariane zarzuelo
+  "Rory & Books": Pinterest by Anastacia
+  White Sweater: Pinterest by Aelfric Eden -->
+
+<div class="products" style=" display: inline-block;">
+  <div class="panel-heading"></span> <span style="font-size:15.5px">LG Black Jacket <br><br><b style="color:red;">₱1,750</b></span></div>
+  <div class="container">
+      <img src="jet.png" class="img-responsive" width="106%" alt="Image">
+  </div>
+</div>
+
+<div class="products" style=" display: inline-block;">
+  <div class="panel-heading"><span style="font-size: 15.5px;"> LG Coffee? Black boots <br><br><b style="color:red;">₱2,500</b></span></div>
+  <div class="container">
+      <img src="bot.png" class="img-responsive" style="width:108%" alt="Image">
+  </div>
+</div>
+
+<div class="products" style=" display: inline-block;">
+  <div class="panel-heading"><span style="font-size:16px">"Rory & Books"<br><br><b style="color:red;">₱1,175<b></span></div>
+  <div class="container">
+      <img src="rg.png" class="img-responsive" style="width:106.5%" alt="Image">
+  </div>
+</div>
+
+<div class="products" style=" display: inline-block;">
+  <div class="panel-heading"><span>RG Chilton Sweater<br><br><b style="color:red;">₱1,590</b></span></div>
+  <div class="container">
+      <span style="margin-left: 10%;"><img src="d1.png" class="img-responsive" style="width: 94%" alt="Image"></span>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+  <div class="about-container1" id="about">
+    <h1>The Gilmore Way: Find <span style="color:red">Love</span></h1>
+    <br>
+    <br>
+  </div>
+
+    <em><p style="color:whitesmoke;">Find a Luke to your Lorelai Gilmore or a Jess to your Rory Gilmore</p></em>
+
+    <h3>Wearing stylish attire will definitely attract a person's interest, infatuation, and admiration on you! Be it your friend, your daughter or anyone from your family, or.. your <em>soulmate</em>?! As Lorelai said: "It’s all any of us wants: to find a nice person to hang out with till we drop dead." Not only personality, interests, and motives, are key factors in finding love, but also having a great fashion sense that draws attention. Hence, this store will provide you a quality inspired closet of what the cast of Gilmore Girls wore!</h3>
+
+    <span style="margin-left: 30%;"><img src="beaked me.jfif" style="border-radius: 8px; box-shadow: 4px 4px 8px black; height: 300px; display: inline-block;"></span>
+
+    <span style="margin-left: 5%">;<img src="rj.jpg" style="border-radius: 8px; box-shadow: 4px 4px 8px black; height: 300px; width: 300px; display: inline-block;"></span>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="about-container2" id="login">
+    <div class="jumbotron">
+        <h1><b>Your Account: Login</b></h1>
+    </div>
+</div>
+
+<div class="container3" style="margin-top:3%; color:whitesmoke;">
+        
+        <form>
+            <strong><label for="username">Username:</label></strong>
+            <input type="text" id="username" name="username" placeholder="Please fill out"  required>
+
+            <strong><label for="email">Email:</label></strong>
+            <strong><input type="email" id="email" name="email" placeholder="Please fill out"  required></strong>
+
+            <strong><label for="passcode">Password:</label></strong>
+            <input type="password" id="password" name="passcode" placeholder="Please fill out" required>
+
+            <button type="submit" class="button">Login</button>
+
+        </form>
+    </div>
+    </body>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
