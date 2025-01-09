@@ -1,0 +1,199 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia;
+	background-image: url(k.jpg);
+	background-size: cover;
+	color:black;
+}
+
+.header {
+	position: relative;
+	text-shadow: 2px 2px black;
+	
+}
+
+.container1 {
+	background-color: #F3AA0C;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.container2 {
+	padding: 15px;
+	background-color: #F3AA0C;
+	border-radius: 8px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.container3{
+	background-color: #F3AA0C;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+}
+
+.container-fluid3 {
+	padding: 15px;
+	background-color: #F3AA0C;
+	border-radius: 8px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.card {
+	padding: 10px;
+}
+
+.img-fluid {
+	width: 60%;
+	margin: 1px auto;
+	display: block;
+	border-radius: 15px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+}
+
+.img-fluid2 {
+	width: 30%;
+	margin: 1px auto;
+	display: block;
+	border-radius: 15px;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+}
+
+.nav-link {
+	color: black;
+}
+
+.container {
+	width: 85%;
+	margin:50px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.cards {
+	background-color: #F3AA0C;
+	box-shadow: 10px 12px 2px 2px rgba(0, 0, 255, .2);
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.image-section {
+	height: 200px;
+	background-color: white;
+}
+
+	/*Images for Desserts*/
+
+.cards .img-one {
+	background-image: url(du.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-two {
+	background-image: url(tp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-three {
+	background-image: url(tam.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+	/*Images for Dishes*/
+
+.cards .img-four {
+	background-image: url(pnak.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-five {
+	background-image: url(igd.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-six {
+	background-image: url(sn.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+	/*Images for Snacks*/
+
+.cards .img-seven {
+	background-image: url(pk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-eight {
+	background-image: url(em.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards .img-nine {
+	background-image: url(al.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.content {
+	padding:20px 10px;
+	text-align: center;
+}
+
+.content a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	display: inline-block;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	padding: 8px 15px;
+}
+
+.content a:hover {
+	background-color: dimgray;
+	transition: 1s ease;
+}
+
+h1 {
+	color: yellow;
+	text-shadow: 2px 2px black;
+}
+
+
+
+
+
+

@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>Filo-Ilo Fantasy</title>
+	<title>Submit Recipe</title>
 </head>
 <body>
 
@@ -48,12 +48,12 @@
 
         <!-- About -->
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="index.html">About</a>
         </li>
 
         <!-- Submit Recipe -->
         <li class="nav-item">
-          <a class="nav-link" href="submitrecipe.html">Submit Recipe</a>
+          <a class="nav-link" href="#submitrecipe">Submit Recipe</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -73,8 +73,7 @@
   <center>
   <div class="header">
     <span style="color: yellow;">
-    <h1>Filo-Ilo Fantasy</h1>
-    <p><em>An Ilocano Chef's Dream</em></p>
+    <h1>Submit Your Recipe</h1>
   </span>
   </div>
 </center>
@@ -82,47 +81,40 @@
 <br>
 <br>
 
-<img src="il.jpg" alt="3 Ilocano Dishes in One Frame" class="img-fluid">
+<div class="container2 mt-5" id="submitrecipe">
+<form>
+      <!-- RECIPE TITLE -->
+      <div class="email mb-3" > <!--div for email-->
+          <label for="inputText">Recipe Title</label>
+          <input type="text" class="form-control" id="inputText">
+      </div>
 
-<br>
-<br>
+      <!-- INGREDIENTS -->
 
-  <!-- ABOUT -->
+      <h6>Ingredients</h6>
 
-
-  <div class="container1" id="about">
-    <h4><span style="font-size: 20px;">Hello there! I see you have stumbled upon a website, showcasing the dishes of one of the many cultures and cuisines of the Philippines, <b>the Ilocano Cuisine</b>. The Ilocano Cuisine provides a variety of meals that taste as great as common Filipino foods we know today. Hence, if you are interested, this website will show you the most popular dishes prepared by local Ilocanos, including mini desserts that made up their childhood.
-
-    <br>
-    <br>
-
-    We are to satisfy the wants of those who spend their time in learning new meals while also familiarizing themselves with a hint of culture. Our team favors the joy of cooking and learning together with their loved ones in order to create a vibrant environment that is welcoming to both new and seasoned cooks alike.
-
-    <br>
-    <br>
-
-    <ul>
-      <b>Our Purpose:</b>
-      <li>Provide the different recipes of Ilocano Cuisine</li>
-      <li>Enjoyment through exploring our website</li>
-      <li>Collect feedback from our viewers to supply more recipes of Ilocano Cuisine</li>
-    </ul>
-    </span></h4>
+    <div class="col-auto">
+    <textarea class="form-control" rows="5" cols="130" placeholder="List the ingredients & measurements here!"></textarea>
   </div>
 
+  <br>
 
-<br>
-<br>
+      <!-- INSTRUCTIONS -->
+      
+      <h6>Instructions</h6>
 
-  <!-- FOOTER & NAME -->
-  <center>
-  <footer class="animate__animated animate__bounceIn"><b><a href="https://frangun.github.io/2Q-EX2_Dela-Cruz-F./">Franzeska Dela Cruz | 9-Emerald</a></footer>
-  </center>
-
-
-  
-
-
-
+    <div class="col-auto">
+    <textarea class="form-control" rows="8" cols="130" placeholder="Provide instructions for your recipe!"></textarea>
+  </div>
+      
+      <br>
+      <br>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    
+  </form>
+</div>
 </body>
 </html>
+
+
